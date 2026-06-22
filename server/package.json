@@ -1,0 +1,9 @@
+{
+  "name": "healthcare-booking-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "python -m uvicorn main:app --reload --port 3003",
+    "seed": "python seed.py",
+    "dev": "python -m uvicorn main:app --reload --port 3003"
+  }
+}
